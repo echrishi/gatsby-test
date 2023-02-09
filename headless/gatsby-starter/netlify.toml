@@ -26,3 +26,31 @@ from = "/test3"
 to = "/"
 status = 302
 
+[[redirects]]
+    from = "/*"
+    to = "/index.html"
+    status = 404
+    force = false
+
+[[redirects]]
+    from = "/404i"
+    to = "/index.html"
+    status = 302
+    force = true
+
+[[redirects]]
+    from = "/test4i"
+    to = "/index.html"
+    status = 404
+
+
+[[redirects]]
+    from = "/test2i"
+    to = "/index.html"
+    status = 200
+
+[[redirects]]
+    from = "/test3i"
+    to = "/index.html"
+    status = 302
+

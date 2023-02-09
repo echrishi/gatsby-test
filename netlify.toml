@@ -1,28 +1,28 @@
 [[redirects]]
-from = "/*"
-to = "/"
-status = 404
-force = false
+    from = "/*"
+    to = "/"
+    status = 404
+    force = false
 
 [[redirects]]
-from = "/404"
-to = "/"
-status = 302
-force = true
+    from = "/404"
+    to = "/"
+    status = 302
+    force = true
 
 [[redirects]]
-from = "/test4"
-to = "/"
-status = 404
+    from = "/test4"
+    to = "/"
+    status = 404
 
 
 [[redirects]]
-from = "/test2"
-to = "/"
-status = 200
+    from = "/test2"
+    to = "/"
+    status = 200
 
 [[redirects]]
-from = "/test3"
-to = "/"
-status = 302
+    from = "/test3"
+    to = "/"
+    status = 302
 
